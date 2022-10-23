@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <title>Peduli Sampah</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: transparent"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">Peduli Sampah</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#hero-content"
+                  >BERANDA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tps-section">TPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="info()">UMKM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="info()">HUBUNGI</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-register" type="submit">
+                Daftar / Masuk
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero-content">
+        <div class="container">
+          <h1>
+            Platform anak bangsa<br />
+            Peduli Sampah
+          </h1>
+          <p>
+            Platform nasional yang bergerak dalam menciptakan<br />
+            serta mewujudkan Indonesia peduli dengan sampah.
+          </p>
+          <button type="button" class="btn btn-more">Selengkapnya</button>
+        </div>
+      </section>
+
+      <section id="about-section">
+        <div class="container">
+          <div class="x-row-one">
+            <div class="content-left">
+              <h2>Apa itu Sampah?</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis
+                in sit lorem eget egestas amet. Lorem arcu amet id nunc. Viverra
+                massa ullamcorper turpis sodales.
+              </p>
+            </div>
+            <div class="content-right">
+              <img src="assets/img/ask-people.png" alt="ask" />
+            </div>
+          </div>
+
+          <div class="x-row-two">
+            <h2>Yuk Pilah Sampahmu!</h2>
+            <div class="content">
+              <div class="box">
+                <div class="image_box">
+                  <img src="assets/img/org-1.PNG" alt="organik" />
+                </div>
+                <div class="content-box">
+                  <div class="sm-box">
+                    <p>Daun</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Kayu</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Ranting</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Kotoran</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Sisa Makanan</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Bangkai Hewan</p>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="image_box">
+                  <img src="assets/img/org-2.PNG" alt="non organik" />
+                </div>
+                <div class="content-box">
+                  <div class="sm-box">
+                    <p>Plastik</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Botol</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Kaca</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Kertas</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Karet</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Kaleng</p>
+                  </div>
+                </div>
+              </div>
+              <div class="box">
+                <div class="image_box">
+                  <img src="assets/img/org-3.PNG" alt="b3" />
+                </div>
+                <div class="content-box">
+                  <div class="sm-box">
+                    <p>Baterai</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Oli</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Minyak</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Lampu</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Deterjen Pakaian</p>
+                  </div>
+                  <div class="sm-box">
+                    <p>Bahan Kimia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contributor-section">
+        <div class="container">
+          <div class="image">
+            <img src="assets/img/join-with-us.png" alt="join-with-us" />
+          </div>
+          <div class="content">
+            <h2>Mari Bergabung Dalam Mengolah Sampah</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Natoque
+              sit elit rhoncus, tortor, quis condimentum cras eros, nullam.
+              Ultrices tortor, adipiscing vitae consequat a.
+            </p>
+            <button type="button" class="btn btn-join">Daftar Sekarang</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="tps-section">
+        <div class="container">
+          <div class="x-row-one">
+            <h2>
+              Presentase Data<br />
+              Sampah Di Indonesia
+            </h2>
+            <div class="content-tps">
+              <div class="box">
+                <h1>40,8%</h1>
+                <p>Rumah Tangga</p>
+              </div>
+              <div class="box">
+                <h1>8,2%</h1>
+                <p>Perkantoran</p>
+              </div>
+              <div class="box">
+                <h1>17,3%</h1>
+                <p>Pasar Tradisional</p>
+              </div>
+              <div class="box">
+                <h1>18,2%</h1>
+                <p>Pusat Perniagaan</p>
+              </div>
+              <div class="box">
+                <h1>18,2%</h1>
+                <p>Fasilitas Publik</p>
+              </div>
+              <div class="box">
+                <p>Lainnya</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="x-row-two">
+            <h2>List TPS di Wilayah</h2>
+            <form action="" method="post">
+              <div class="x-r-one">
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+
+                <select
+                  class="form-select form-select-sm"
+                  aria-label=".form-select-sm example"
+                >
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+              <div class="x-r-two">
+                <p id="location"><b>List TPS sekitar:</b> Bandung, Regol</p>
+                <div class="content">
+                  <div class="box-tps">
+                    <div class="content-header">
+                      <div class="content-header-left">
+                        <p id="nama-tps">Nama: TPS</p>
+                        <p id="status-tps">Status: Penuh</p>
+                      </div>
+                      <div class="content-header-right">
+                        <span id="toggle">
+                          <!-- <i class="uil uil-plus"></i> -->
+                          <i class="uil uil-minus"></i>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="box-maps">
+                      <img src="assets/img/2 1.png" alt="maps" />
+                    </div>
+                  </div>
+
+                  <div class="box-tps">
+                    <div class="content-header">
+                      <div class="content-header-left">
+                        <p id="nama-tps">Nama: TPS</p>
+                        <p id="status-tps">Status: Penuh</p>
+                      </div>
+                      <div class="content-header-right">
+                        <span id="toggle">
+                          <!-- <i class="uil uil-plus"></i> -->
+                          <i class="uil uil-minus"></i>
+                        </span>
+                      </div>
+                    </div>
+
+                    <div class="box-maps">
+                      <img src="assets/img/2 1.png" alt="maps" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq-section">
+        <div class="container">
+          <h2>FAQ</h2>
+          <div class="content">
+            <div class="box-faq">
+              <div class="content-header">
+                <div class="content-header-left">
+                  <p id="asq">Apa itu peduli sampah?</p>
+                </div>
+                <div class="content-header-right">
+                  <span id="toggle-faq">
+                    <i class="uil uil-minus"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="content-value">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat porttitor donec non consectetur. Egestas at a quis
+                  dictum odio laoreet. Ac elementum mi nullam amet varius quis.
+                  Eu adipiscing sit parturient urna pellentesque. In eget eget
+                  cursus maecenas platea pulvinar sit neque massa. Turpis a
+                  etiam elit neque fames enim lacus dolor. Massa vitae vitae,
+                  amet, magna aliquet sed volutpat orci aenean. Eu amet nullam
+                  vel venenatis donec. Id vitae, euismod purus sed turpis diam.
+                  In id vitae metus, et morbi viverra risus convallis.
+                </p>
+              </div>
+            </div>
+
+            <div class="box-faq">
+              <div class="content-header">
+                <div class="content-header-left">
+                  <p id="asq">Kenapa kita harus peduli terhadap sampah?</p>
+                </div>
+                <div class="content-header-right">
+                  <span id="toggle-faq">
+                    <i class="uil uil-minus"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="content-value">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat porttitor donec non consectetur. Egestas at a quis
+                  dictum odio laoreet. Ac elementum mi nullam amet varius quis.
+                  Eu adipiscing sit parturient urna pellentesque. In eget eget
+                  cursus maecenas platea pulvinar sit neque massa. Turpis a
+                  etiam elit neque fames enim lacus dolor. Massa vitae vitae,
+                  amet, magna aliquet sed volutpat orci aenean. Eu amet nullam
+                  vel venenatis donec. Id vitae, euismod purus sed turpis diam.
+                  In id vitae metus, et morbi viverra risus convallis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="x-row-one">
+          <div class="col-x">
+            <h4>Peduli Sampah</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates quam eius odit quis, laudantium eos ea fugit culpa
+              consectetur voluptatem nostrum numquam hic maxime vel ratione,
+              nulla adipisci aliquid labore
+            </p>
+          </div>
+          <div class="col-x">
+            <h4>Halaman</h4>
+            <ul>
+              <li><a href="">Beranda</a></li>
+              <li><a href="">Tpa</a></li>
+              <li><a href="">Umkm</a></li>
+              <li><a href="">Hubungi</a></li>
+            </ul>
+          </div>
+          <div class="col-x">
+            <h4>Sosial Media</h4>
+            <ul>
+              <li>
+                <a href=""><i class="uil uil-youtube"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="uil uil-instagram-alt"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="uil uil-facebook"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="x-row-two">
+          <p>&copy;copyright 2022 <a href="">peduli sampah</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
+    <script>
+      const info = function (e) {
+        swal("Mohon Maaf", "Halaman sedang dalam perbaikan!", "info");
+
+        e.preventDefault();
+      };
+    </script>
+  </body>
+</html>
