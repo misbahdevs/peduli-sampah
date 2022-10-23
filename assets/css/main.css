@@ -231,8 +231,11 @@ section#tps-section .container .x-row-two form {
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.x-row-two form .x-r-one select {
+.x-row-two form .x-r-one .xx {
   width: 45%;
+}
+.x-row-two form .x-r-one select {
+  width: 100%;
   padding: 10px 20px;
 }
 .x-row-two form .x-r-two {
@@ -486,6 +489,9 @@ footer .container .x-row-two p a:hover {
     flex-direction: column;
     justify-content: baseline;
     margin-bottom: 50px;
+  }
+  .x-row-two form .x-r-one .xx {
+    width: 100%;
   }
   .x-row-two form .x-r-one select {
     width: 100%;
